@@ -1,4 +1,4 @@
-package com.builder;
+package com.builder.v1;
 
 public class Cook {
     private CakeBuilder cakeBuilder;

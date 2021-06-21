@@ -1,4 +1,4 @@
-package com.builder;
+package com.builder.v1;
 
 public abstract class CakeBuilder {
     public Cake cake;

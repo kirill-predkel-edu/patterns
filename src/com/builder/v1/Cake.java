@@ -1,4 +1,4 @@
-package com.builder;
+package com.builder.v1;
 
 public class Cake {
     private String layer;
@@ -24,11 +24,5 @@ public class Cake {
                 ", filling='" + filling + '\'' +
                 ", cream='" + cream + '\'' +
                 '}';
-    }
-
-    public String getCakeInfo() {
-        String info = "Cake's layers are " + layer + ", cake's filling is " + filling +
-                      " and cake's cream is " + cream;
-        return info;
     }
 }

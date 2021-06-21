@@ -1,4 +1,4 @@
-package com.builder;
+package com.builder.v1;
 
 public class TestBuilder {
     public static void main(String[] args) {
@@ -9,6 +9,6 @@ public class TestBuilder {
 
     Cake cake = cook.getCake();
 
-    System.out.println(cake.getCakeInfo());
+    System.out.println(cake.toString());
     }
 }
