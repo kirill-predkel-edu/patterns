@@ -1,4 +1,4 @@
-package com.study;
+package com.study.annotation;
 import java.lang.annotation.*;
 
 @Target(ElementType.METHOD)

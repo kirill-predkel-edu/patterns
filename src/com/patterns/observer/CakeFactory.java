@@ -5,11 +5,17 @@ public class CakeFactory implements Observable {
     private int cakePrice = 10;
     ArrayList<Subscriber> subscribers = new ArrayList<>();
 
-    public void priceChange(int changeAmount) {
+    public boolean priceChange(int changeAmount) {
         int oldPrice = cakePrice;
+        boolean subscriberIsNotified = true;
         cakePrice += changeAmount;
         if (cakePrice < oldPrice ) {
             notifySubscriber();
+            return subscriberIsNotified;
+        }
+        else {
+            subscriberIsNotified = false;
+            return subscriberIsNotified;
         }
     }
 

@@ -1,6 +1,7 @@
 package com.patterns.observer;
 
-public class TestObserver {
+public class Main {
+
     public static void main(String[] args) {
         CakeFactory factory = new CakeFactory();
 
@@ -9,4 +10,5 @@ public class TestObserver {
         factory.priceChange(2);
 
     }
+
 }
